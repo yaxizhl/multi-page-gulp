@@ -2,7 +2,11 @@
   "name": "multi-page-gulp",
   "version": "1.0.0",
   "license": "MIT",
-  "dependencies": {
+  "scripts": {
+    "build": "gulp",
+    "start": "live-server ./dist"
+  },
+  "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "crypto-random-string": "^3.0.0",
@@ -16,6 +20,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-scss": "^1.4.0",
     "gulp-terser": "^1.2.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "live-server": "^1.2.1"
   }
 }
